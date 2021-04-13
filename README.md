@@ -3,7 +3,7 @@
 This project uses wordpress as a dependency and configures the themes and plugins that are required.
 The goal of this repository is to create a backend for clients apps that can be deployed to Heroku.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ibandominguez/wordpress-heroku)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/bnichs5/wp-her-dep)
 
 The app is automatically provisioned and adds aws s3 support out of the box using *Cloudcube*(https://elements.heroku.com/addons/cloudcube) and a running db using *Jaws DB Mysql*(https://elements.heroku.com/addons/jawsdb).
 
