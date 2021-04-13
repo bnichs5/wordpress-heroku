@@ -18,7 +18,8 @@
     "ext-exif": "*",
     "ext-imagick": "*",
     "wordpress/wordpress": "^5.7"
-  },
+    "ext-mbstring": "*"
+    },
   "scripts": {
     "rm-public": "rm -rf public",
     "cp-config": "cp -r src/config public",
