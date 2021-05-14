@@ -1,0 +1,15 @@
+---
+application:
+  name: "wp-her-dep"
+  project: "Garbageman"
+  organization: "QoveryCommunity"
+databases:
+- type: "MYSQL"
+  name: "Flintstones"
+  version: "5.6"
+routers:
+- name: "main-wp-her-dep"
+  routes:
+  - application_name: "wp-her-dep"
+    paths:
+    - "/*"
